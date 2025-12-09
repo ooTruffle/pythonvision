@@ -1,215 +1,135 @@
 {
-  "total_matches": 42,
+  "total_matches": 26,
   "videos": [
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-04-30_00-20-52.mkv",
-      "confidence": 0.8563830554485321,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_12.11.2025_23-41-16.mkv",
+      "confidence": 0.8059723973274231,
+      "frames_checked": 1738
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-02_13-27-42.mkv",
-      "confidence": 0.8500575721263885,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_16.10.2025_20-55-46.mkv",
+      "confidence": 0.837114155292511,
+      "frames_checked": 1702
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-02_13-31-21.mkv",
-      "confidence": 0.8210913836956024,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_16.10.2025_20-28-51.mkv",
+      "confidence": 0.8290400207042694,
+      "frames_checked": 1726
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-02_15-36-01.mkv",
-      "confidence": 0.8544722497463226,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_08.11.2025_22-46-15.mkv",
+      "confidence": 0.8325122892856598,
+      "frames_checked": 1747
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-05_20-03-54.mkv",
-      "confidence": 0.7861088216304779,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_14.10.2025_16-36-50.mkv",
+      "confidence": 0.8353698253631592,
+      "frames_checked": 1791
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-09_00-05-07.mkv",
-      "confidence": 0.8848668336868286,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_27.10.2025_00-55-27.mkv",
+      "confidence": 0.80149906873703,
+      "frames_checked": 1691
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-12_22-08-07.mkv",
-      "confidence": 0.7320219576358795,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_25.10.2025_01-28-29.mkv",
+      "confidence": 0.8326815664768219,
+      "frames_checked": 1800
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-14_19-53-20.mkv",
-      "confidence": 0.85576531291008,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_07.11.2025_23-20-43.mkv",
+      "confidence": 0.8358141779899597,
+      "frames_checked": 1699
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-22_23-05-22.mkv",
-      "confidence": 0.8621101677417755,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_12.11.2025_00-48-55.mkv",
+      "confidence": 0.7643528282642365,
+      "frames_checked": 1792
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-06_02-06-45.mkv",
-      "confidence": 0.836906760931015,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_12.11.2025_01-03-14.mkv",
+      "confidence": 0.8325000703334808,
+      "frames_checked": 1722
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-07_21-40-18.mkv",
-      "confidence": 0.8688938915729523,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_17.10.2025_01-27-22.mkv",
+      "confidence": 0.7952087223529816,
+      "frames_checked": 1786
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-13_14-59-10.mkv",
-      "confidence": 0.8195638060569763,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_16.10.2025_20-41-10.mkv",
+      "confidence": 0.8345194756984711,
+      "frames_checked": 1687
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-15_15-52-25.mkv",
-      "confidence": 0.8452015519142151,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_16.10.2025_20-14-57.mkv",
+      "confidence": 0.8384591042995453,
+      "frames_checked": 1767
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-16_21-22-41.mkv",
-      "confidence": 0.8227636516094208,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_20.10.2025_14-59-01.mkv",
+      "confidence": 0.8073222637176514,
+      "frames_checked": 1733
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-19_19-33-32.mkv",
-      "confidence": 0.8502587378025055,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_23.10.2025_00-38-48.mkv",
+      "confidence": 0.8371753394603729,
+      "frames_checked": 1711
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-19_20-33-48.mkv",
-      "confidence": 0.8590211272239685,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_25.09.2025_00-13-25.mkv",
+      "confidence": 0.7518029510974884,
+      "frames_checked": 1699
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-08-07_16-48-05.mkv",
-      "confidence": 0.8386512994766235,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_13.09.2025_00-34-43.mkv",
+      "confidence": 0.7945980131626129,
+      "frames_checked": 1771
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-08-07_19-58-51.mkv",
-      "confidence": 0.8423859775066376,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_20.10.2025_15-29-28.mkv",
+      "confidence": 0.8022542595863342,
+      "frames_checked": 1775
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-08-07_20-01-40.mkv",
-      "confidence": 0.8516328632831573,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_09.10.2025_20-45-52.mkv",
+      "confidence": 0.825863242149353,
+      "frames_checked": 1696
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-08-07_20-02-16.mkv",
-      "confidence": 0.8478880524635315,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_27.10.2025_01-17-31.mkv",
+      "confidence": 0.801630288362503,
+      "frames_checked": 1798
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-08-09_21-18-20.mkv",
-      "confidence": 0.873040497303009,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_25.10.2025_01-23-18.mkv",
+      "confidence": 0.8200709521770477,
+      "frames_checked": 1735
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-04-30_00-20-52.mkv",
-      "confidence": 0.8563830554485321,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_16.10.2025_19-52-49.mkv",
+      "confidence": 0.8371656835079193,
+      "frames_checked": 1739
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-02_13-27-42.mkv",
-      "confidence": 0.8500575721263885,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_23.10.2025_00-41-46.mkv",
+      "confidence": 0.8356063365936279,
+      "frames_checked": 1797
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-02_13-31-21.mkv",
-      "confidence": 0.8210913836956024,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_20.10.2025_14-56-52.mkv",
+      "confidence": 0.8028814196586609,
+      "frames_checked": 1778
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-02_15-36-01.mkv",
-      "confidence": 0.8544722497463226,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_16.10.2025_20-50-51.mkv",
+      "confidence": 0.8295306265354156,
+      "frames_checked": 1789
     },
     {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-05_20-03-54.mkv",
-      "confidence": 0.7861088216304779,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-09_00-05-07.mkv",
-      "confidence": 0.8848668336868286,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-12_22-08-07.mkv",
-      "confidence": 0.7320219576358795,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-14_19-53-20.mkv",
-      "confidence": 0.85576531291008,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-05-22_23-05-22.mkv",
-      "confidence": 0.8621101677417755,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-06_02-06-45.mkv",
-      "confidence": 0.836906760931015,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-07_21-40-18.mkv",
-      "confidence": 0.8688938915729523,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-13_14-59-10.mkv",
-      "confidence": 0.8195638060569763,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-15_15-52-25.mkv",
-      "confidence": 0.8452015519142151,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-16_21-22-41.mkv",
-      "confidence": 0.8227636516094208,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-19_19-33-32.mkv",
-      "confidence": 0.8502587378025055,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-07-19_20-33-48.mkv",
-      "confidence": 0.8590211272239685,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-08-07_16-48-05.mkv",
-      "confidence": 0.8386512994766235,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-08-07_19-58-51.mkv",
-      "confidence": 0.8423859775066376,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-08-07_20-01-40.mkv",
-      "confidence": 0.8516328632831573,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-08-07_20-02-16.mkv",
-      "confidence": 0.8478880524635315,
-      "frames_checked": 10
-    },
-    {
-      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Pre replay script change\\tf_win64_2025-08-09_21-18-20.mkv",
-      "confidence": 0.873040497303009,
-      "frames_checked": 10
+      "path": "D:\\Truffle\\Videos\\OBS\\Replays\\Team Fortress 2\\Team Fortress 2_20.10.2025_15-03-06.mkv",
+      "confidence": 0.7951426804065704,
+      "frames_checked": 1796
     }
   ]
 }

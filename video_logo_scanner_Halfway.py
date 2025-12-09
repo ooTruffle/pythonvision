@@ -94,7 +94,10 @@ class VideoLogoScanner:
         if corner == 'top-left':
             return frame[0:corner_h, 0:corner_w]
         elif corner == 'top-right':
-            return frame[0:corner_h, w-corner_w:w]
+                    # Custom dimensions for top-right (expanding towards center-frame horizontally and vertically)
+            expanded_width = int(w * 0.4)  # Expand horizontally (40% of width)
+            expanded_height = int(h * 0.3)  # Expand vertically (30% of height)
+            return frame[0:expanded_height, w-expanded_width:w]
         elif corner == 'bottom-left':
             return frame[h-corner_h:h, 0:corner_w]
         elif corner == 'bottom-right':
@@ -167,13 +170,12 @@ class VideoLogoScanner:
         
         return found, max_confidence
     
-    def scan_video(self, video_path: str, sample_frames: int = 10) -> Tuple[bool, float, int]:
+    def scan_video(self, video_path: str) -> Tuple[bool, float, int]:
         """
-        Scan a video file for the logo.
+        Scan a video file for the logo, starting halfway into the clip.
         
         Args:
             video_path: Path to video file
-            sample_frames: Number of frames to sample from the video
             
         Returns:
             (found, max_confidence, frames_checked): Tuple indicating if logo was found
@@ -189,24 +191,24 @@ class VideoLogoScanner:
             cap.release()
             return False, 0.0, 0
         
-        # Sample frames evenly throughout the video
-        frame_indices = np.linspace(0, total_frames - 1, min(sample_frames, total_frames), dtype=int)
-        
         max_confidence = 0.0
         logo_found = False
         frames_checked = 0
-        
-        for frame_idx in frame_indices:
-            cap.set(cv2.CAP_PROP_POS_FRAMES, frame_idx)
-            ret, frame = cap.read()
+
+        # Start halfway through the clip
+        starting_frame = total_frames // 2  
+        cap.set(cv2.CAP_PROP_POS_FRAMES, starting_frame)
+
+        for frame_idx in range(starting_frame, total_frames):  # Iterate from halfway to the end
+            ret, frame = cap.read()  # Read the frame
             
-            if not ret:
+            if not ret:  # If reading fails, skip
                 continue
             
             frames_checked += 1
-            found, confidence = self.detect_logo_in_frame(frame)
+            found, confidence = self.detect_logo_in_frame(frame)  # Scan the frame for the logo
             
-            if found:
+            if found:  # If the logo is found, update the status and confidence
                 logo_found = True
                 max_confidence = max(max_confidence, confidence)
         
@@ -247,14 +249,15 @@ class VideoLogoScanner:
             raise ValueError(f"Folder does not exist: {folder_path}")
         
         matching_videos = []
-        all_videos = []
+        all_videos = set()
         
         # Collect all video files
         for ext in extensions:
-            all_videos.extend(folder.glob(f'*{ext}'))
-            all_videos.extend(folder.glob(f'*{ext.upper()}'))
+           all_videos.update(folder.glob(f'*{ext}'))
+           all_videos.update(folder.glob(f'*{ext.upper()}'))
         
         total = len(all_videos)
+        all_videos = list(all_videos)  # Convert back to list for iteration (if needed)
         if verbose:
             print(f"Found {total} video file(s) to scan...")
         
@@ -263,7 +266,7 @@ class VideoLogoScanner:
                 print(f"[{idx}/{total}] Scanning: {video_path.name}...", end=' ', flush=True)
             
             try:
-                found, confidence, frames_checked = self.scan_video(str(video_path), sample_frames)
+                found, confidence, frames_checked = self.scan_video(str(video_path))
                 
                 if found:
                     matching_videos.append((str(video_path), confidence, frames_checked))
